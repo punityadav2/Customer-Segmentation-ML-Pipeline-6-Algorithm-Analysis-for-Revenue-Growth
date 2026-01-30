@@ -1,0 +1,9 @@
+,customer_id,customer_id,customer_id,customer_id,age,age,age,age,annual_income,annual_income,annual_income,annual_income,spending_score,spending_score,spending_score,spending_score,Cluster_KMeans,Cluster_KMeans,Cluster_KMeans,Cluster_KMeans,Cluster_DBSCAN,Cluster_DBSCAN,Cluster_DBSCAN,Cluster_DBSCAN,Cluster_Hierarchical,Cluster_Hierarchical,Cluster_Hierarchical,Cluster_Hierarchical
+,mean,median,std,count,mean,median,std,count,mean,median,std,count,mean,median,std,count,mean,median,std,count,mean,median,std,count,mean,median,std,count
+Cluster_KMeans,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0,83.78,81.0,24.91,45,56.33,54.0,8.45,45,54.27,54.0,8.98,45,49.07,49.0,6.3,45,0.0,0.0,0.0,45,0.91,1.0,0.42,45,0.96,1.0,0.21,45
+1,162.0,162.0,22.8,39,32.69,32.0,3.73,39,86.54,79.0,16.31,39,82.13,83.0,9.36,39,1.0,1.0,0.0,39,2.49,3.0,1.35,39,2.0,2.0,0.0,39
+2,24.2,24.0,14.94,25,25.56,24.0,5.44,25,26.48,25.0,8.53,25,76.24,76.0,13.56,25,2.0,2.0,0.0,25,0.0,0.0,0.71,25,4.36,5.0,1.66,25
+3,97.7,97.0,29.18,40,26.12,25.0,7.03,40,59.42,60.0,10.59,40,44.45,48.0,14.28,40,3.0,3.0,0.0,40,1.32,2.0,1.14,40,0.0,0.0,0.0,40
+4,167.07,170.0,21.49,30,44.0,43.5,8.08,30,90.13,87.0,16.92,30,17.93,16.5,9.89,30,4.0,4.0,0.0,30,-0.87,-1.0,0.51,30,2.87,3.0,0.51,30
+5,23.19,23.0,12.73,21,45.52,46.0,11.77,21,26.29,25.0,7.44,21,19.38,15.0,12.56,21,5.0,5.0,0.0,21,-0.81,-1.0,0.6,21,4.0,4.0,0.0,21

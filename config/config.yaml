@@ -1,0 +1,63 @@
+project_name: customer_segmentation
+version: 1.0.0
+
+# Data configuration
+data:
+  raw_path: data/raw/Mall_Customers.csv
+  processed_path: data/processed/mall_customers_processed.csv
+  test_size: 0.2
+  random_state: 42
+
+# Column configuration
+columns:
+  rename:
+    CustomerID: customer_id
+    Gender: gender
+    Age: age
+    "Annual Income (k$)": annual_income
+    "Spending Score (1-100)": spending_score
+  numeric:
+    - age
+    - annual_income
+    - spending_score
+  categorical:
+    - gender
+  drop:
+    - customer_id
+    - gender
+
+# Clustering models configuration
+models:
+  kmeans:
+    n_clusters: 3
+    random_state: 42
+    max_iter: 300
+  hierarchical:
+    n_clusters: 3
+    linkage: ward
+  dbscan:
+    eps: 0.7
+    min_samples: 5
+  affinity_propagation:
+    preference: null
+    damping: 0.9
+    random_state: 42
+  meanshift:
+    bandwidth: null
+  optics:
+    min_samples: 5
+    eps: 1.0
+
+# Visualization configuration
+visualization:
+  figsize_default: [12, 8]
+  figsize_small: [10, 6]
+  palette: hls
+  style: whitegrid
+  dpi: 100
+
+# Logging configuration
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: logs/clustering.log
